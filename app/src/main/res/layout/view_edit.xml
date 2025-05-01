@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvEditTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Room"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etEditBuildingName"
+        android:hint="Enter Building Name"
+        android:backgroundTint="#ECEFF1"
+        android:textColor="#263238"
+        android:textColorHint="#B0BEC5"/>
+
+    <EditText
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etEditRoomNumber"
+        android:hint="Enter Room Number"
+        android:backgroundTint="#ECEFF1"
+        android:textColor="#263238"
+        android:textColorHint="#B0BEC5"/>
+
+    <EditText
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etEditRoomDescription"
+        android:hint="Room Description"
+        android:backgroundTint="#ECEFF1"
+        android:textColor="#263238"
+        android:textColorHint="#B0BEC5"/>
+
+    <EditText
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etEditRoomPrice"
+        android:hint="Enter Room Price"
+        android:inputType="numberDecimal"
+        android:backgroundTint="#ECEFF1"
+        android:textColor="#263238"
+        android:textColorHint="#B0BEC5"/>
+
+    <Button
+        android:backgroundTint="#4CAF50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/btnUpdateRoom"
+        android:text="Update Room"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:backgroundTint="#FF5722"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/btnDeleteRoom"
+        android:text="Delete Room"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>

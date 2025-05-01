@@ -1,0 +1,9 @@
+<resources>
+    <color name="primaryColor">#00244D</color> <!-- Teal -->
+    <color name="primaryDarkColor">#00332E</color> <!-- Dark Teal -->
+    <color name="accentColor">#FF5722</color> <!-- Deep Orange -->
+    <color name="backgroundColor">#ECEFF1</color> <!-- Light Blue Gray -->
+    <color name="textColor">#263238</color> <!-- Dark Blue Gray -->
+    <color name="cardColor">#FFFFFF</color> <!-- White -->
+    <color name="ic_launcher_background">#FFFFFF</color>
+</resources>

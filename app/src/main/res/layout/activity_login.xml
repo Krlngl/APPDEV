@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_margin="10dp"
+    android:gravity="center_vertical">
+
+    <!-- Logo ImageView -->
+
+    <!-- Login Header Section -->
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="150dp"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="App Logo"
+        android:src="@drawable/th"
+        android:scaleType="fitCenter"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:layout_gravity="center_horizontal"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        android:textColor="#000000" />
+
+    <!-- Email EditText -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Email"
+        android:id="@+id/etEmail"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- Password EditText -->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Password"
+        android:id="@+id/etPassword"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- Login Button -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnlogin"
+        android:layout_gravity="center_horizontal"
+        android:text="Login"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- Forgot Password TextView -->
+    <TextView
+        android:id="@+id/tvForgotPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:clickable="true"
+        android:focusable="true"
+        android:paddingTop="8dp"
+        android:text="Forgot Password?"
+        android:textSize="16sp" />
+
+    <!-- Separator between Login and Registration -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="#D3D3D3"/>
+
+    <!-- Registration Link -->
+    <TextView
+        android:id="@+id/btnregister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account? Register"
+        android:textColor="#2196F3"
+        android:textSize="16sp"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
